@@ -18,7 +18,9 @@
             android:layout_height="wrap_content"
             android:padding="3dp"
             android:text="Name"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,7 +36,8 @@
                 android:layout_weight="2"
                 android:padding="3dp"
                 android:text="Course Tracks"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
 
             <!--text view for our course duration-->
@@ -45,7 +48,8 @@
                 android:layout_weight="3"
                 android:padding="3dp"
                 android:text="email"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
         </LinearLayout>
 
